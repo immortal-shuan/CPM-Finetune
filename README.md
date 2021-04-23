@@ -1,4 +1,6 @@
-## CPM官方GitHub地址：https://github.com/TsinghuaAI/CPM-Finetune，本项目的主要目的是本人在使用CPM的过程中遇到的坑，以及能够使用CPM进行下游任务。
+## CPM官方GitHub地址：https://github.com/TsinghuaAI/CPM-Finetune
+
+本项目的主要目的是本人在使用CPM的过程中遇到的坑，以及能够使用CPM进行下游任务。
 
 ## 1 安装
 
