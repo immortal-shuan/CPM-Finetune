@@ -1,16 +1,3 @@
-# CPM-Finetune
-
-本仓库为CPM模型的 fine-tune 代码仓库，可以用于模型 fine-tune 的多机多卡训练/测试。目前支持了 ChID 中文成语填空数据集和 STC 中文对话数据集。[[项目首页](https://cpm.baai.ac.cn)] [[模型下载](https://cpm.baai.ac.cn/download.html)] [[技术报告](https://arxiv.org/abs/2012.00413)]
-
-同时，该仓库也提供了 ChID 数据集 zero-shot setting 下测试代码。
-
-ChID 数据集来源于论文 [ChID: A Large-scale Chinese IDiom Dataset for Cloze Test](https://www.aclweb.org/anthology/P19-1075/). 
-
-STC 数据集来源于论文 [Neural Responding Machine for Short-Text Conversation](https://www.aclweb.org/anthology/P15-1152/).
-
-两个数据集可从[这里](https://drive.google.com/drive/folders/1gL01xbFBcrgP0TmgOhJ_uplkeG-BCwvM)下载。
-
-
 ## 1 安装
 
 首先安装 pytorch 等基础依赖，再安装[APEX](https://github.com/NVIDIA/apex#quick-start)以支持 fp16，然后安装 deepspeed：
@@ -18,6 +5,7 @@ STC 数据集来源于论文 [Neural Responding Machine for Short-Text Conversat
 **安装基础依赖：**
 
 ```[bash]
+
 pip install -r requirements.txt
 ```
 
